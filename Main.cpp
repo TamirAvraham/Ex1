@@ -2,11 +2,14 @@
 #include "Queue.h"
 #include "LinkedList.h"
 #include "Stack.h"
+#include "Utils.h"
 int main() 
 {
 	Queue* q = new Queue;
 	LinkedList *test = new LinkedList();
 	Stack *s = new Stack;
+	reverse10();
+	
 	initStack(s);
 	push(s, 10);
 	push(s, 9);

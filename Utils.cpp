@@ -1,6 +1,11 @@
 #include "Utils.h"
 #include "Stack.h"
 #include <iostream>
+/*
+* reverse the array using the stack data structure
+* Input: array to reverse,size of the array
+* Output:NONE
+*/
 void reverse(int* nums, unsigned int size)
 {
 	int* ret = new int[size];
@@ -25,6 +30,11 @@ void reverse(int* nums, unsigned int size)
 	delete[] save; 
 	delete s;
 }
+/*
+* gets 10 numbers from the user and retuns the reversed array of the user input
+* Input:NONE
+* Output:Reversed array from the user inputs
+*/
 int* reverse10()
 {
 	int* ret = new int[10];
